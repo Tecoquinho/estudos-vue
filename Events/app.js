@@ -8,6 +8,7 @@ const app = Vue.createApp({
   methods:{
     submitForm(event){
       event.preventDefault(); //Default of a Form is to reload the page after Submiting
+      //DEPOIS RETIRA ISSO DAQUI QUANDO CHEGAR EM CASA
       alert('Submited');
     },
     setName(event, lastName, sourName){
