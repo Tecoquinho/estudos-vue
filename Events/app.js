@@ -6,8 +6,12 @@ const app = Vue.createApp({
     };
   },
   methods:{
-    setName(event){
-      this.name = event.target.value
+    submitForm(event){
+      event.preventDefault(); //Default of a Form is to reload the page after Submiting
+      alert('Submited');
+    },
+    setName(event, lastName, sourName){
+      this.name = event.target.value + ' ' + lastName + ' ' + sourName;
     },
     addGoal(num){
       this.counter = this.counter + num
