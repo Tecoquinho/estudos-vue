@@ -19,14 +19,11 @@
     <section id="events">
       <h2>Events in Action</h2>
       <button v-on:click="addGoal(10)">Add 10</button>
-      <button v-on:click="reduceGoal(5)">Reduce 5</button>
+      <button v-on:click.right="reduceGoal(5)">Reduce 5</button> <!-- Only reacts when Right Click thats .right does-->
       <p>Result: {{ counter }}</p>
-      <input type="text" v-on:input="setName($event, 'Lage', 'de Souza')"> 
+      <input type="text" v-model="name"> 
+      <button v-on:click="resetInput">Reset Input</button>
       <p>Your name: {{ name }}</p>
-      <form v-on:submit="submitForm">
-        <input type="text">
-        <button>Sign Up</button>
-      </form>
     </section>
   </body>
 </html>
