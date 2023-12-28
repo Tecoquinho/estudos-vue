@@ -22,7 +22,7 @@ header {
   max-width: 40rem;
 }
 
-#events {
+#loto {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   margin: 3rem auto;
   border-radius: 10px;
@@ -32,14 +32,14 @@ header {
   max-width: 40rem;
 }
 
-#events h2 {
+#loto h2 {
   font-size: 2rem;
   border-bottom: 4px solid #ccc;
   color: #4fc08d;
   margin: 0 0 1rem 0;
 }
 
-#events p {
+#loto p {
   font-size: 1.25rem;
   font-weight: bold;
   border: 1px solid #4fc08d;
@@ -49,18 +49,27 @@ header {
   border-radius: 25px;
 }
 
-#events input {
+#loto input {
   font: inherit;
   border: 1px solid #ccc;
 }
 
-#events input:focus {
+#loto input:focus {
   outline: none;
   border-color: #1b995e;
   background-color: #d7fdeb;
 }
 
-#events button {
+#loto div {
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #eee;
+  background-color: #ccc;
+  width: 40%;
+  margin: 1rem auto;
+  border-radius: 25px;
+}
+
+#loto button {
   font: inherit;
   cursor: pointer;
   border: 1px solid #ff0077;
@@ -70,23 +79,23 @@ header {
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
 }
 
-#events button:hover,
-#events button:active {
+#loto button:hover,
+#loto button:active {
   background-color: #ec3169;
   border-color: #ec3169;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
 }
-#events ul {
+#loto ul {
   list-style: none; /* Remove default bullets */
   padding: 0;
   margin: 0;
   border-radius: 5px; /* Apply subtle rounding for the container */
 }
-#events ul li {
+#loto ul li {
   padding: 0.5rem 1rem;
   border-bottom: 1px solid #eee;
 }
-#events ul li:hover{
+#loto ul li:hover{
   padding: 0.5rem 1rem;
   border-bottom: 1px solid #eee;
   background-color: #86e9bb;

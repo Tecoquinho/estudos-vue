@@ -16,9 +16,10 @@
     <header>
       <h1>Random Loto Numbers</h1>
     </header>
-    <section id="events">
+    <section id="loto">
         <h2>Mega-Sena Number Generator</h2>
-        
+        <button @click="gerarNumerosAleatorios()">GENERATE</button>
+         <div>{{ numeros.sort().join(', ') }}</div>
     </section>
   </body>
 </html>
